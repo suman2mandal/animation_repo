@@ -63,7 +63,7 @@ body {
 
 @keyframes rotate3 {
   0% {
-    background-position: 0 400%;
+    background-position: 0 800%;
   }
 
 
@@ -78,7 +78,7 @@ body {
   }
 
   100% {
-    background-position: 0 -500%;
+    background-position: 0 -800%;
   }
 
   /*100% {*/
@@ -102,9 +102,10 @@ body {
 .top_liver{
   z-index: 0;
   top:18px;
-  right:75px;
+  right:90px;
   transform-origin: bottom center;
   animation-delay: 0.5s;
+  transform:rotate(-15deg);
 }
 
 .liver{
