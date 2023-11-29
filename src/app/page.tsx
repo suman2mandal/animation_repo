@@ -14,7 +14,7 @@ export default function Home() {
             }}>
             <Image className="absolute pistol" src="/Layer 1.png" width={400} height={400} alt="Pistol"/>
             <Image className={`absolute  top_liver ${event?'rotator1':''}`} src="/Layer 3.png" width={60} height={60} alt="top_liver"/>
-            <Image className={`absolute  liver ${event?'rotator2':''}`} src='/Layer 4.png' width={52} height={52} alt="liver"/>
+            <Image className={`absolute  liver ${event?'rotator2':''}`} src='/Layer 4.png' width={42} height={42} alt="liver"/>
             {/*<Image className={`absolute  Rotator ${event?'rotator3':''}`} src='/Layer 5.png' width={66} height={65} alt="liver"/>*/}
             <div className={`absolute  Rotator ${event ? 'rotator3' : ''}`}>
             </div>

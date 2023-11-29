@@ -30,7 +30,7 @@ body {
     transform: rotate(0deg);
   }
   95% {
-    transform: rotate(25deg);
+    transform: rotate(55deg);
   }
   /*90% {*/
   /*  transform: rotate(-15deg);*/
@@ -45,7 +45,7 @@ body {
     transform: rotate(0deg);
   }
   95% {
-    transform: rotate(-25deg);
+    transform: rotate(-35deg);
   }
   100% {
     transform: rotate(0deg);
@@ -63,7 +63,7 @@ body {
 
 @keyframes rotate3 {
   0% {
-    background-position: 0 100%;
+    background-position: 0 400%;
   }
 
 
@@ -78,7 +78,7 @@ body {
   }
 
   100% {
-    background-position: 0 -400%;
+    background-position: 0 -500%;
   }
 
   /*100% {*/
@@ -101,17 +101,18 @@ body {
 
 .top_liver{
   z-index: 0;
-  top:15px;
-  right:80px;
-  transform-origin: center;
+  top:18px;
+  right:75px;
+  transform-origin: bottom center;
   animation-delay: 0.5s;
 }
 
 .liver{
   z-index: 0;
-  top:83px;
-  right:140px;
+  top:88px;
+  right:155px;
   animation-delay: 0.5s;
+  transform-origin: top center;
 }
 /*.Rotator{*/
 /*  height: 300px;*/
